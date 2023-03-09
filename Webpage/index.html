@@ -24,6 +24,15 @@
 
             <div class="driver-control-container">
                 <h3>Driver Controller</h3>
+                <div class="controller-output">
+                    <p id="gamepad-text"></p>
+                </div>
+
+                <div class="container">
+                    <div class="ds4-preview">
+                        <iframe id="scaled-frame" src="https://gamepadviewer.com/?p=1&s=8"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -32,6 +41,21 @@
 
 
 
+
+
+
+
+
+
+
+        <div class="dropdown">
+            <select class = "SelSty" id="motorSelect" onchange="val()">
+                <option value="1">Motor 1</option>
+                <option value="2" selectedIndex ="2">Motor 2</option>
+                <option value="3">Motor 3</option>
+                <option value="4">Motor 4</option>
+            </select>
+        </div>
 
 
         <script src="index.js"></script>
