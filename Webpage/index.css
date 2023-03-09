@@ -10,5 +10,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
+.border {
+    border: 2px solid black;
+}
+
+.video-feed-container {
+    width: 50%;
+    height: 480px;
+    min-width: 640px;
+    min-height: 480px;
+}
+
+.driver-control-container {
+    width: 50%;
+    height: 480px;
+    border-left: 2px solid black;
+}
+
+.driver-control-container h3{
+    padding-left: 2rem;
+}
