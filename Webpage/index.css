@@ -5,7 +5,16 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background-color: #c5c6c7;
+}
 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -48,7 +57,7 @@
     height: 1000px;
     border: 0px;
     top: 200px;
-    right: -175px;
+    right: -500px;
     position: absolute;
 }
   
@@ -69,4 +78,12 @@
 #joycon-right {
     position: absolute;
     right: 20%;
+}
+
+#gamepad-text {
+    font-size: large;
+}
+
+#current-action {
+    color: red;
 }
